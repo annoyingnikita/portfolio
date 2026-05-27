@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/details/homepage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my details</title>
+</head>
+<body>
+    <a href="http://127.0.0.1:5500/details/education.html">education</a>
+    <a href="http://127.0.0.1:5500/details/experince.html">experince</a>
+    <a href="http://127.0.0.1:5500/details/projects.html">projects</a>
+    <header>
+        <pre>        <p>education   experince</p>
+        </pre>
+        <a href="https://www.google.com/" target="_main"> <img src="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGoogle_%2522G%2522_logo.svg&amp;psig=AOvVaw1NCPzS2pzauXlxr0qcqrfD&amp;ust=1743241789905000&amp;source=images&amp;cd=vfe&amp;opi=89978449&amp;ved=0CBQQjRxqFwoTCNCD_Y3ArIwDFQAAAAAdAAAAABAE" alt="Google"></a>
+        <div style="
+    color: red;
+    background: rebeccapurple;
+"><p> hello world
+
+        </p>
+    <p>namste</p>
+<p>hi</p>
+</div>
+<div style="
+    background: yellow;
+    color: green;
+">
+    <p>goodbye</p>
+    <p>bye</p>
+    <p>ciao</p>
+</div>
+
+    </header>
+    <main>
+    <section>
+        education : school of management sciences lucknow
+    </section>
+    <section>
+        experince : ms excel
+    </section>
+    <aside> this is an ad</aside>
+    <article>Hello! I am Nikita Mishra , I am pursuing BTech and I am learning coding</article>
+    </main>
+    <footer>
+        <h5>contact me at hello@ac.com</h5>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
